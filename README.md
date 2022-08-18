@@ -1,4 +1,4 @@
-![Header](https://github.com/ray-MADS/Capstone_jnr_fakenews/blob/master/images/github-header-image.png](https://github.com/ray-MADS/Capstone_jnr_fakenews/blob/master/images/github-header-image%20(8).png)
+![Header](https://github.com/ray-MADS/Capstone_jnr_fakenews/blob/master/images/github-header-image%20(8).png)
 
 # testing
 

@@ -8,8 +8,11 @@ In this project, we attempt to build a dashboard that will allow users to explor
 
 ### Data Used 
 Two datasets were used in this project. For political bias modeling, we used the “Quantifying News Media Bias Through Crowdsourcing and Machine Learning” dataset, developed by Ceren Budak, Sharad Goel, and Justin M. Rao (2016), accessed from DeepBlue. The dataset includes about 21,000 news articles, with labels based on whether they portray Republican or Democratic policies or politicians positively or negatively. These labels include: Negative, Somewhat Negative, Neutral, Somewhat Positive, and Positive, for both parties. The dataset also includes URLs for each article, of which 15,480 are still accessible for reading. 
+[Click here for the dataset](https://deepblue.lib.umich.edu/data/concern/data_sets/8w32r569d?locale=en)
 
 For misinformation modeling, we used the “MisInfo Text” dataset, developed by Torabi Asr and Taboada (2019), accessed from GitHub. This dataset includes 1380 news articles, labeled by Buzzfeed “Fact-Checkers” as: Mostly False, a Mix of True and False, and Mostly True. 
+[Click here for the dataset](https://github.com/sfu-discourse-lab/MisInfoText)
+
 
 
 ## Methods
@@ -49,3 +52,15 @@ The Misinformation Modeling Section focuses on our evaluation of a dataset conta
 ![Dashboard_A](https://github.com/ray-MADS/Capstone_jnr_fakenews/blob/master/images/newplot4.png)
 
 ![Dashboard_A](https://github.com/ray-MADS/Capstone_jnr_fakenews/blob/master/images/newplot5.png)
+
+## References 
+Budak, C., Goel, S., & Rao, J. M. (2016). Fair and balanced? Quantifying media bias through crowdsourced content analysis. Public Opinion Quarterly, 80(S1), 250-271.
+
+Cacciatore, M. A. (2021). Misinformation and public opinion of science and health: Approaches, findings, and future directions. Proceedings of the National Academy of Sciences, 118(15), e1912437117.
+
+Frank, E., & Hall, M. (2001, September). A simple approach to ordinal classification. In European conference on machine learning (pp. 145-156). Springer, Berlin, Heidelberg.
+
+Nan, Q., Cao, J., Zhu, Y., Wang, Y., & Li, J. (2021, October). MDFEND: Multi-domain fake news detection. In Proceedings of the 30th ACM International Conference on Information & Knowledge Management (pp. 3343-3347).
+
+Torabi Asr, F., & Taboada, M. (2019). Big Data and quality data for fake news and misinformation detection. Big Data & Society, 6(1), 2053951719843310.
+

@@ -25,9 +25,10 @@ The cleaning process for both datasets consisted of the standard NLP methods: to
 The main aspects of our EDA include sentiment analysis and WordCloud creation. 
 Using sentiment analysis (via the TextBlob library), we attempted to find if the articles included in Budak et. al's dataset showed any varying sentiment, and, if it did, we would ad sentiment as a feature in our final misinformation model. We found that the majority of models had neutral sentiment polarity, so we did not include it in the final modeling process. 
 
-Because the sentiment analysis did not provide significant information, we turned our attention to the words used in the articles. Using the WordCloud library, we created WordClouds showcasing the top 50 words for all artticles, the articles that lean left, the articles that lean center, and the articles that lean right. 
+Because the sentiment analysis did not provide significant information, we turned our attention to the words used in the articles. Using the WordCloud library, we created WordClouds showcasing the top 50 words for all artticles, the articles that lean left, the articles that lean center, and the articles that lean right. Below is an example WordCLoud, for all articles:
 
-(insert word cloud pics here)
+![Dashboard_A](https://github.com/ray-MADS/Capstone_jnr_fakenews/blob/master/images/capstone_50_top_words_all.png)
+
 
 Through these WordClouds, we found that there were words still present within the tokens that were not handled by NLTK's stopwords list. We appended the words we felt were insignificant (and appeared in the articles over 2000 times) to the stopwords list for further removal and cleaning. 
 
